@@ -6,5 +6,13 @@ Form validation occurs after the client had entered all the necessary data and t
 
 In the script given, we are calling regvalidateform() to validate the data when onsubmit event is occuring.
 
+/^[A-Za-z_0-9]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z]{2,6}$/
+
+This can be explained as email should contain character  A-Z/a-z or numeric 0-9.
+Must contain '@' and a '.'
+
+
+
+
 
 
