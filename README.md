@@ -12,7 +12,9 @@ This can be explained as email should contain character  A-Z/a-z or numeric 0-9.
 Must contain '@' and a '.'
 
 
-
+/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z_0-9!@#$%^&*]{8,16}$/
+Password must contain atleast 1 numeriacal value, a special character such as @ #, and atleat 1 capital letter.
+for more infomation in detail visit https://www.nakshautomation.live/flaskvalid
 
 
 
